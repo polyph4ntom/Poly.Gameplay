@@ -1,0 +1,21 @@
+{
+    "name": "Poly.Graph",
+    "rootNamespace": "",
+    "references": [
+        "GUID:92bc0159a0d1b884ab4845b6b992edb1",
+        "GUID:ba39014a2e590314ca6fae9ac0798b0f",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:1fb06c92f0ed622459b0b53182e04189",
+        "GUID:4539d4042ef54d4ab0a5c8284079add0",
+        "GUID:ce81dfb5e3a58f34cb35ac3c4e2c05bd"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

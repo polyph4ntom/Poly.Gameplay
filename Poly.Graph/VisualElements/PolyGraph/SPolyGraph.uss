@@ -1,0 +1,95 @@
+.poly-graph {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(8, 27, 57);
+}
+
+.poly-graph__content {
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 0;
+    overflow: hidden;
+}
+
+.poly-graph__exit {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 30px;
+    top: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url("project://database/Assets/Main/2D/UI/Gates/BackArrow.png?fileID=2800000&guid=5aa7596161eedb644a46b961810e15ce&type=3#BackArrow");
+    background-size: 80px 80%;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.6);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+.poly-graph__movement-indicator {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(55, 55, 55, 0);
+    right: 30px;
+    bottom: 30px;
+    background-image: url("project://database/Assets/Main/2D/UI/Gates/MovingSymbol.png?fileID=2800000&guid=2e9552f0876b8804190cf6e2ef7f35ca&type=3#MovingSymbol");
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.6);
+}
+
+.poly-graph__zoom-label {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    -unity-font-definition: url("project://database/Assets/Main/Fonts/FontAsset/CabinSketch-Regular%20SDF.asset?fileID=11400000&guid=e06954f44fdd24b4bb003a8add1e5938&type=2#CabinSketch-Regular SDF");
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 50px;
+}
+
+.poly-graph__bottom-tabbed-menu {
+    position: absolute;
+    left: 0;
+    top: 92%;
+    width: 1000px;
+}
+
+.poly-graph__bottom-tabbed-menu__show {
+    left: 0;
+    top: 60%;
+    transition-property: left, top;
+    transition-duration: 0.2s, 0.2s;
+    transition-timing-function: linear, linear;
+}
+
+.poly-graph__bottom-tabbed-menu__hide {
+    top: 93%;
+    left: 0;
+    transition-property: left, top;
+    transition-duration: 0.2s, 0.2s;
+    transition-timing-function: linear, linear;
+}
+
+.poly-graph__gate-tabbed-menu {
+    position: absolute;
+    left: 51%;
+    top: 92%;
+    width: 1000px;
+}
+
+.poly-graph__gate-tabbed-menu__show {
+    left: 51%;
+    top: 60%;
+    transition-property: left, top;
+    transition-duration: 0.2s, 0.2s;
+    transition-timing-function: linear, linear;
+}
+
+.poly-graph__gate-tabbed-menu__hide {
+    top: 93%;
+    left: 51%;
+    transition-property: left, top;
+    transition-duration: 0.2s, 0.2s;
+    transition-timing-function: linear, linear;
+}

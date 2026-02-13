@@ -1,0 +1,18 @@
+{
+    "name": "Poly.Path",
+    "rootNamespace": "",
+    "references": [
+        "GUID:ea5ca9e23ff8b6b48b1dfaf216a9cb88",
+        "GUID:4539d4042ef54d4ab0a5c8284079add0",
+        "GUID:92bc0159a0d1b884ab4845b6b992edb1"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

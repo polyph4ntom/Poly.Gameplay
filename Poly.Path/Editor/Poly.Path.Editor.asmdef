@@ -1,0 +1,19 @@
+{
+    "name": "Poly.Path.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:aa4b4a6ec715be746a97ab0944445efb",
+        "GUID:ea5ca9e23ff8b6b48b1dfaf216a9cb88"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

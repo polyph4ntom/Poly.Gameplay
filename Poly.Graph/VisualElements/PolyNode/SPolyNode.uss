@@ -1,0 +1,217 @@
+.poly-node {
+    position: absolute;
+    flex-direction: column;
+    width: 260px;
+    height: 150px;
+    justify-content: center;
+    align-items: stretch;
+    top: auto;
+    right: auto;
+}
+
+.poly-node__inner {
+    align-self: center;
+    width: 210px;
+    height: 100px;
+    border-radius: 15px;
+    background-color: rgba(57, 57, 57, 0);
+    border-color: rgb(57, 57, 57);
+    border-width: 5px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url("project://database/Assets/Main/2D/orTest.png?fileID=2800000&guid=cb0e6046f9f8e02418c170e262cce9f4&type=3#orTest");
+    -unity-background-scale-mode: stretch-to-fill;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    top: -15px;
+    -unity-slice-left: 1;
+    -unity-slice-top: 1;
+    -unity-slice-right: 1;
+    -unity-slice-bottom: 1;
+}
+
+.poly-node__inner--selected {
+    border-width: 5px;
+    border-color: rgba(255, 165, 0, 0.81);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.poly-node__topBar {
+    position: relative;
+    width: 100%;
+    height: 20%;
+    top: 5px;
+    left: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.poly-node__topBarAlt {
+    padding-bottom: 25px;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin-bottom: 20px;
+}
+
+.poly-node__inputArea {
+    flex-direction: column;
+    position: absolute;
+    height: 31%;
+    width: 11%;
+    left: 0;
+    align-items: flex-end;
+}
+
+.poly-node__inputArea-centered {
+    justify-content: center;
+}
+
+.poly-node__inputArea-space {
+    justify-content: space-between;
+}
+
+.poly-node__outputArea {
+    flex-direction: column;
+    position: absolute;
+    height: 40%;
+    width: 11%;
+    right: 0;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.poly-node__title {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0);
+    -unity-text-align: middle-center;
+    left: auto;
+    -unity-font-definition: url("project://database/Assets/Main/Fonts/FontAsset/CabinSketch-Bold%20SDF.asset?fileID=11400000&guid=0323774a067149743ad3a553553605f2&type=2#CabinSketch-Bold SDF");
+    flex-grow: 1;
+    position: absolute;
+    bottom: 0%;
+}
+
+.poly-node__info {
+    width: 32px;
+    height: 32px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 1px;
+    top: -10px;
+    position: absolute;
+    left: 5px;
+    background-image: url("project://database/Assets/Main/2D/UI/Sketch/Info.png?fileID=2800000&guid=e4e78eec3e5aaad4da0e4406813bd375&type=3#Info");
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-left-color: rgba(255, 255, 255, 0.8);
+    border-right-color: rgba(255, 255, 255, 0.8);
+    border-top-color: rgba(255, 255, 255, 0.8);
+    border-bottom-color: rgba(255, 255, 255, 0.8);
+    background-size: 90% 70%;
+}
+
+.poly-node__delete {
+    width: 32px;
+    height: 32px;
+    background-size: 60% 60%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: wheat;
+    border-width: 1px;
+    border-radius: 16px;
+    padding: 1px;
+    background-image: url("project://database/Assets/Main/2D/UI/Sketch/trash-bin.png?fileID=2800000&guid=9175c0c3d11deae4cb24b6a24c29950e&type=3#trash-bin");
+    margin-right: 5px;
+    top: -10px;
+    right: 0;
+    left: 209px;
+    -unity-text-auto-size: none;
+    display: flex;
+    visibility: visible;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    bottom: 0%;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.8);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-left-color: rgba(255, 255, 255, 0.8);
+    border-right-color: rgba(255, 255, 255, 0.8);
+    border-top-color: rgba(255, 255, 255, 0.8);
+    border-bottom-color: rgba(255, 255, 255, 0.8);
+}
+
+.poly-node__content {
+    flex-direction: row;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+}
+
+.poly-node__content-area {
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-grow: 1;
+}
+
+.poly-node__content-area-icon {
+    flex-grow: 1;
+    height: 32px;
+    width: 32px;
+    align-self: center;
+    -unity-background-scale-mode: scale-to-fit;
+    background-size: contain;
+    background-position-y: center;
+    margin-left: 30px;
+    position: absolute;
+    background-position-x: center;
+}
+
+.poly-node__content-area-label {
+    color: rgb(255, 255, 255);
+    -unity-font-definition: url("project://database/Assets/Main/Fonts/FontAsset/CabinSketch-Bold%20SDF.asset?fileID=11400000&guid=0323774a067149743ad3a553553605f2&type=2#CabinSketch-Bold SDF");
+    flex-grow: 1;
+    width: 100%;
+    background-size: 100% 100%;
+    -unity-background-scale-mode: stretch-to-fill;
+    -unity-text-align: upper-center;
+    margin-right: 0;
+    padding-left: 55px;
+    padding-right: 55px;
+}

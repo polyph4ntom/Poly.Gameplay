@@ -1,0 +1,9 @@
+.poly-node-button {
+    position: relative;
+    align-self: center;
+    width: 128px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 25px;
+    background-size: 50px;
+}

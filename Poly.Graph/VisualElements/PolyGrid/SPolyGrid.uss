@@ -1,0 +1,16 @@
+.poly-grid {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    background-image: url("project://database/Assets/Main/2D/UI/BlueprintBackground.png?fileID=2800000&guid=81860195ef6e85742ba7debbfc5236d3&type=3#BlueprintBackground");
+    -unity-background-image-tint-color: rgb(165, 167, 226);
+}
+
+.poly-grid__content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: left top;
+}

@@ -1,0 +1,10 @@
+{
+  "name": "com.poly.utils",
+  "displayName": "PolyUtils",
+  "version": "0.2.0",
+  "dependencies": {
+    "com.poly.core": "0.1.0",
+	"com.poly.utils": "0.1.0",
+	"com.unity.inputsystem": "1.17.0"
+  }
+}
